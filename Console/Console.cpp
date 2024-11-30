@@ -143,8 +143,10 @@ int main()
 		} while (invalidAction);
 
 		cout << monsterName << " is attacking!\n";
+		system("pause");
 		hp -= monsterPHY;
 		cout << user << " lost " << monsterPHY << "HP!\n";
+		system("pause");
 	} while (0 < monsterHP &&  0 < hp);
 
 	if (0 >= monsterHP)
